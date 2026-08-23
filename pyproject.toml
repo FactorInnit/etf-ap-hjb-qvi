@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etf-ap-hjb-qvi"
+version = "0.1.0"
+description = "HJB-QVI solver for Authorized Participant ETF market making and creation/redemption"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+include = ["etf_ap*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

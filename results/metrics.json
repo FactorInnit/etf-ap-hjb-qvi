@@ -1,0 +1,92 @@
+{
+  "profile": "paper",
+  "params": {
+    "kappa": 2.0,
+    "sigma_x": 0.08,
+    "A": 140.0,
+    "k_lambda": 12.0,
+    "eta": 0.02,
+    "phi": 0.015,
+    "fee": 0.08,
+    "K": 3,
+    "T": 1.0,
+    "x_max": 0.35,
+    "n_x": 41,
+    "q_e_max": 5,
+    "q_i_max": 5,
+    "n_t": 80,
+    "delta_min": 0.0001,
+    "delta_max": 0.5,
+    "nu_max": 25.0
+  },
+  "V0": 7.9027687263671265,
+  "quoting_identity": {
+    "bid_mae": 0.0,
+    "ask_mae": 0.0
+  },
+  "smooth_pasting": {
+    "n_interfaces": 104.0,
+    "mean_abs_jump_Vx": 445.57897743986854,
+    "max_abs_jump_Vx": 1058.8980761324963
+  },
+  "parity_residual": 2.1785745756072674e-13,
+  "qvi_gap_mean": 1.7103816750568057,
+  "policies": {
+    "optimal": {
+      "mean_wealth": 6.2588389977022185,
+      "std_wealth": 0.5649607009297231,
+      "sharpe_like": 11.078361711516097,
+      "p05": 5.349901864303621,
+      "p50": 6.2535548291431,
+      "p95": 7.204025220949038,
+      "mean_creates": 0.0125,
+      "mean_redeems": 0.226,
+      "mean_bid_fills": 36.764,
+      "mean_ask_fills": 36.432,
+      "mean_|qE|_T": 2.2485,
+      "mean_|qI|_T": 0.6405
+    },
+    "mm_only": {
+      "mean_wealth": 6.2225301772116834,
+      "std_wealth": 0.5722148237186984,
+      "sharpe_like": 10.874465182083108,
+      "p05": 5.2631498225772315,
+      "p50": 6.225599012147944,
+      "p95": 7.1599673100407,
+      "mean_creates": 0.0,
+      "mean_redeems": 0.0,
+      "mean_bid_fills": 36.4155,
+      "mean_ask_fills": 36.514,
+      "mean_|qE|_T": 2.4285,
+      "mean_|qI|_T": 0.0
+    },
+    "naive_arb": {
+      "mean_wealth": 6.053760412404291,
+      "std_wealth": 0.6137473312727235,
+      "sharpe_like": 9.863603642627313,
+      "p05": 5.034973691288535,
+      "p50": 6.043213551502893,
+      "p95": 7.0506355323724526,
+      "mean_creates": 0.0,
+      "mean_redeems": 0.0,
+      "mean_bid_fills": 36.34,
+      "mean_ask_fills": 36.317,
+      "mean_|qE|_T": 2.549,
+      "mean_|qI|_T": 0.0
+    },
+    "hold": {
+      "mean_wealth": 0.0,
+      "std_wealth": 0.0,
+      "sharpe_like": 0.0,
+      "p05": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "mean_creates": 0.0,
+      "mean_redeems": 0.0,
+      "mean_bid_fills": 0.0,
+      "mean_ask_fills": 0.0,
+      "mean_|qE|_T": 0.0,
+      "mean_|qI|_T": 0.0
+    }
+  }
+}
