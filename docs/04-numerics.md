@@ -49,14 +49,14 @@ $(\delta^{b\star},\delta^{a\star},\nu^\star)$ and evaluate
 $$
 H^{n+1}
 = \mathcal{H}^b+\mathcal{H}^a+\mathcal{H}^\nu
-  - \phi\bigl((q^E)^2+(q^I)^2\bigr).
+  - \phi\left((q^E)^2+(q^I)^2\right).
 $$
 
 **Implicit OU.**  For each frozen inventory $(j,k)$, solve the tridiagonal
 system
 
 $$
-\Bigl(\frac{1}{\Delta t} I - \mathcal{G}^{\mathrm{OU}}_{\Delta x}\Bigr) \tilde V^n_{\cdot,j,k}
+\left(\frac{1}{\Delta t} I - \mathcal{G}^{\mathrm{OU}}_{\Delta x}\right) \tilde V^n_{\cdot,j,k}
 = \frac{1}{\Delta t} V^{n+1}_{\cdot,j,k} + H^{n+1}_{\cdot,j,k}.
 $$
 
@@ -78,11 +78,11 @@ layer; $X_{\max}$ is chosen several stationary standard deviations out.
 
 $$
 V^n_{i,j,k}
-= \max\Bigl\{
+= \max\left\{
     \tilde V^n_{i,j,k},\;
     V^n_{i,j+K,k-K} - C_{\mathrm{fee}},\;
     V^n_{i,j-K,k+K} - C_{\mathrm{fee}}
-  \Bigr\},
+  \right\},
 $$
 
 with out-of-box impulses dropped.  Four Gauss–Seidel sweeps over the

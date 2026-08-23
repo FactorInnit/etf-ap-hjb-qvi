@@ -132,10 +132,10 @@ Over a finite horizon $[0,T]$ (the close, or a slice of the trading day)
 the AP maximises expected marked wealth minus a running inventory penalty:
 
 $$
-\mathbb{E}\Biggl[
+\mathbb{E}\left[
   Y_T + q_T^E S_T^E + q_T^I I_T
-  - \phi \int_0^T \bigl( (q_s^E)^2 + (q_s^I)^2 \bigr)\, ds
-\Biggr].
+  - \phi \int_0^T \left( (q_s^E)^2 + (q_s^I)^2 \right)\, ds
+\right].
 $$
 
 The quadratic penalty is the reduced form of overnight inventory aversion
@@ -147,7 +147,7 @@ The marked terminal wealth expands as
 
 $$
 Y_T + q_T^E (I_T + X_T) + q_T^I I_T
-= \underbrace{\bigl(Y_T + (q_T^E+q_T^I)I_T\bigr)}_{\text{NAV-marked book}}
+= \underbrace{\left(Y_T + (q_T^E+q_T^I)I_T\right)}_{\text{NAV-marked book}}
   + q_T^E X_T.
 $$
 

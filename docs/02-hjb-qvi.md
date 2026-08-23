@@ -61,12 +61,12 @@ $$
 V(t,x,q^E,q^I)
 = \sup_{(\boldsymbol{\delta},\nu,\boldsymbol{\tau},\boldsymbol{\xi})}
   \mathbb{E}_{t,x,q^E,q^I}
-  \Biggl[
-    \int_t^T \Bigl(
+  \left[
+    \int_t^T \left(
         \text{cash rate of }\mathcal{L}
-        - \phi\bigl((q_s^E)^2+(q_s^I)^2\bigr)
-    \Bigr) ds
-  \Biggr],
+        - \phi\left((q_s^E)^2+(q_s^I)^2\right)
+    \right) ds
+  \right],
 $$
 
 with $V(T,\cdot)\equiv 0$.  Cash of impulses is applied at $\tau_j$.
@@ -75,12 +75,12 @@ The dynamic programming principle for combined regular and impulse control
 yields the Hamilton–Jacobi–Bellman quasi-variational inequality
 
 $$
-\max\Bigl\{
+\max\left\{
   \partial_t V + \sup_{\delta,\nu}\mathcal{L}^{\boldsymbol{\delta},\nu} V
-    - \phi\bigl((q^E)^2+(q^I)^2\bigr),
+    - \phi\left((q^E)^2+(q^I)^2\right),
   \ \mathcal{M}_c V - V,
   \ \mathcal{M}_r V - V
-\Bigr\} = 0
+\right\} = 0
 $$
 
 on $[0,T)\times\mathbb{R}\times\mathbb{Z}^2$, in the viscosity sense, with

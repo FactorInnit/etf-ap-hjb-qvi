@@ -26,21 +26,21 @@ The bid contribution to the generator is the scalar function
 
 $$
 \mathcal{H}^b(\delta)
-= A e^{-k\delta}\bigl(\Delta^+ V + \delta - x\bigr), \qquad \delta\in\mathbb{R}.
+= A e^{-k\delta}\left(\Delta^+ V + \delta - x\right), \qquad \delta\in\mathbb{R}.
 $$
 
 Differentiate:
 
 $$
 \frac{d\mathcal{H}^b}{d\delta}
-= -k A e^{-k\delta}\bigl(\Delta^+ V + \delta - x\bigr)
+= -k A e^{-k\delta}\left(\Delta^+ V + \delta - x\right)
   + A e^{-k\delta}.
 $$
 
 The exponential is never zero, so the critical-point equation is
 
 $$
--k\bigl(\Delta^+ V + \delta - x\bigr) + 1 = 0
+-k\left(\Delta^+ V + \delta - x\right) + 1 = 0
 \qquad\Longleftrightarrow\qquad
 \delta = \frac{1}{k} + x - \Delta^+ V.
 $$
@@ -49,8 +49,8 @@ The second derivative at that point is
 
 $$
 \frac{d^2\mathcal{H}^b}{d\delta^2}
-= -k A e^{-k\delta}\bigl(1\bigr)
-  - k \frac{d\mathcal{H}^b}{d\delta}\Big/\bigl(A e^{-k\delta}\bigr)\cdot(\cdots)
+= -k A e^{-k\delta}\left(1\right)
+  - k \frac{d\mathcal{H}^b}{d\delta}/\left(A e^{-k\delta}\right)\cdot(\cdots)
   = -k\lambda(\delta) < 0
 $$
 
@@ -85,11 +85,11 @@ $\Delta^+ V \mapsto \Delta^- V$ and $-x \mapsto +x$.  □
 ## Theorem 2 (optimal hedge rate)
 
 $$
-\nu^\star = \mathrm{clip}\Bigl(\frac{\partial_{q^I} V}{2\eta},\, -\nu_{\max},\, \nu_{\max}\Bigr).
+\nu^\star = \mathrm{clip}\left(\frac{\partial_{q^I} V}{2\eta},\, -\nu_{\max},\, \nu_{\max}\right).
 $$
 
 The maximised hedge Hamiltonian is
-$\bigl(\partial_{q^I} V\bigr)^2 / (4\eta)$ in the interior.
+$\left(\partial_{q^I} V\right)^2 / (4\eta)$ in the interior.
 
 ### Proof
 
@@ -106,11 +106,11 @@ Define
 $$
 \begin{aligned}
 \mathcal{C}
-&= \bigl\{(t,x,q^E,q^I): V > \max(\mathcal{M}_c V,\ \mathcal{M}_r V)\bigr\},\\
+&= \left\{(t,x,q^E,q^I): V > \max(\mathcal{M}_c V,\ \mathcal{M}_r V)\right\},\\
 \mathcal{I}_c
-&= \bigl\{(t,x,q^E,q^I): V = \mathcal{M}_c V \ge \mathcal{M}_r V\bigr\},\\
+&= \left\{(t,x,q^E,q^I): V = \mathcal{M}_c V \ge \mathcal{M}_r V\right\},\\
 \mathcal{I}_r
-&= \bigl\{(t,x,q^E,q^I): V = \mathcal{M}_r V \ge \mathcal{M}_c V\bigr\}.
+&= \left\{(t,x,q^E,q^I): V = \mathcal{M}_r V \ge \mathcal{M}_c V\right\}.
 \end{aligned}
 $$
 

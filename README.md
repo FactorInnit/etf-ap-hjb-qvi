@@ -69,12 +69,12 @@ optimised fill value is $+1/k$.
 The QVI is
 
 $$
-\max\Bigl\{
+\max\left\{
   \partial_t V + \mathcal{L}^{\delta^{\star},\nu^{\star}}V
-    - \phi\bigl((q^E)^2+(q^I)^2\bigr),\;
+    - \phi\left((q^E)^2+(q^I)^2\right),\;
   \mathcal{M}_c V - V,\;
   \mathcal{M}_r V - V
-\Bigr\} = 0,
+\right\} = 0,
 $$
 
 solved **backward** from $V(T)=0$.  A forward IMEX stencil on a terminal-value
