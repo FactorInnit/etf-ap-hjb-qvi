@@ -1,6 +1,6 @@
 # Experiment metrics
 
-Profile `paper`. Value at the origin V(0,0,0,0) = **7.9028**.
+Profile `paper`. Value at the origin $V(0,0,0,0) = 7.9028$.
 
 | policy | mean wealth | std | 5% | 95% | creates | redeems |
 |---|---:|---:|---:|---:|---:|---:|
